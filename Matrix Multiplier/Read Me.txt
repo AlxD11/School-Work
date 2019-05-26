@@ -1,0 +1,14 @@
+This Matrix Multiplier was a school project for the purpose of understanding memory management with 2D arrays and reading from files - as such, it is not user friendly.
+
+To use it, you need to enter the full name of the .txt file with the matrix data ("SampleData.txt" has been provided for convenience). The .txt file needs to be set up as follows:
+
+The first line contains, in order, the rows in matrix one, the columns in matrix one, and the columns of matrix two. (When the program runs, the number of rows in matrix two will be made equal to the number of columns in matrix one.)
+The following lines contain the data for each row of matrix one. There are as many lines as there are rows in the matrix, and as many data entries per line as there are columns.
+The next lines contain the data for each row of the second matrix. There are as many lines as there are columns in matrix one, and as many data entries per line as there are columns of the second matrix.
+
+All data entries need to be in this format (real imaginary), with a space between the real and imaginary parts of the complex number, and between other entries. For example:
+(3.9 .04) (2.0 8.1) (0.08 -1.32)
+
+A more detailed project description and the design used to build it can be found in Design.pdf.
+
+This project was built to run in a Windows environment.
